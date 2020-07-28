@@ -8,7 +8,7 @@ computing the wAP and sAP metrics descrivbed in the paper.
 
 ## Data
 
-You can download the videos zipped into one file [here](https://www.rocq.inria.fr/cluster-willow/amiech/howto100m/howto100m_captions.zip)
+You can download the videos zipped into one file [here](https://www.rocq.inria.fr/cluster-willow/amiech/rareact.zip).
 The video names are the YouTube ids of the videos.
 
 The annotation file is hosted in the github repo and named as rareact.csv
