@@ -6,7 +6,7 @@ computing the wAP and sAP metrics described in the paper.
 ![RareAct](rareact.png)
 
 
-## Requirements
+## Requirements (only for the evaluation script)
 
 - Python 3
 - Pandas
