@@ -1,7 +1,10 @@
 # RareAct
-![RareAct](rareact.png)
+
 This repository contains annotation for the RareAct dataset as well as an evaluation script for
 computing the wAP and sAP metrics descrivbed in the paper.
+
+![RareAct](rareact.png)
+
 
 ## Data
 
@@ -12,28 +15,18 @@ The annotation file is hosted in the github repo and named as rareact.csv
 
 Here is a description of each column:
 
-<table><tbody>
-<!-- START TABLE -->
-<!-- TABLE HEADER -->
-<th valign="bottom">id</th>
-<th valign="bottom">video\_id</th>
-<th valign="bottom">start</th>
-<th valign="bottom">end</th>
-<th valign="bottom">class\_id</th>
-<th valign="bottom">verb</th>
-<th valign="bottom">noun</th>
-<th valign="bottom">annotation</th>
-<!-- TABLE BODY -->
-<tr><td align="left">Unique identifier for the annotation</td>
-<td align="center">YouTube id of the video</td>
-<td align="center">The start time of the annotated clip</td>
-<td align="center">The end time of the annotated clip</td>
-<td align="center">The class_id of the actions (verb, noun). Maximum id: . Type: int. </td>
-<td align="center">Action verb describing class_id. Type: string</td>
-<td align="center">Object noun describing class_id. Type: string</td>
-<td align="center">Annotation for the given clip and (verb, noun) class. 1: Positive. 2: Hard negative (only verb is right): 3: Hard negative (only noun is right). 4: Hard negative (Both verb and noun are valid but verb is not applied to noun). 0: Negative. Type: integer in [0,1,2,3,4]</td>
-</tr>
-</tbody></table>
+
+| Column Name           | Type                       | Example        | Description                                                                   |
+| --------------------- | -------------------------- | -------------- | ----------------------------------------------------------------------------- |
+| `id`                  | int                        | `14`           | Unique ID for the annotated video segment.                                    |
+| `video_id`            | string                     | `P01_01`       | YouTube ID of the video where the segment originated from (unique per video). |
+| `start`               | int                        | `3`            | Start time in seconds of the action segment.                                  |
+| `end`                 | int                        | `5`            | End time in seconds of the action segment.                                    |
+| `class_id`            | int                        | `8`            | The class identifier of the actions (verb, noun). Maximum id: .               |
+| `verb`                | string                     | `cut`          | Action verb describing the interaction.                                       |
+| `noun`                | string                     | `laptop`       | Object noun subject of the interaction.                                       |
+| `annotation`          | int ([0-4])                | `1`            | Annotation for the given clip and (verb, noun) class. 1: Positive. 2: Hard negative (only verb is right): 3: Hard negative (only noun is right). 4: Hard negative (Both verb and noun are valid but verb is not applied to noun). 0: Negative.|
+
 
 ## Evaluation script
 
