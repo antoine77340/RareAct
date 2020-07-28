@@ -101,5 +101,8 @@ for action in positive_negative_ind:
       score = average_precision_score(label, scores, sample_weight=sample_weight)
     all_scores[action] = score
     mAP += score
-    
-print('mAP {}'.format(mAP / float(len(all_scores))))
+
+if n_sampling > 0:
+    print('mSAP (n = {}) {}'.format(n_sampling, mAP / float(len(all_scores))))
+else:
+    print('mWAP {}'.format(mAP / float(len(all_scores))))
