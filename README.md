@@ -31,7 +31,7 @@ Here is a description of each column:
 ## Evaluation script
 
 We provide an evaluation python script.
-To run an evaluation you need first to create a prediction output numpy matrix of shape `7610x149`.
+To run an evaluation you need first to create a prediction output numpy matrix of shape `7607x149`.
 where each row represent the samples ordered similarly as in rareact.csv and each column is the prediction score for each of the action `class_id`.
 
 To compute the mWAP just run:
