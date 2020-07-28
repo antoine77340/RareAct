@@ -1,6 +1,5 @@
 # RareAct
-TODO include image here.
-[RareAct](rareact.png)
+![RareAct](rareact.png)
 This repository contains annotation for the RareAct dataset as well as an evaluation script for
 computing the wAP and sAP metrics descrivbed in the paper.
 
