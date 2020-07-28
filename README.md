@@ -6,6 +6,12 @@ computing the wAP and sAP metrics descrivbed in the paper.
 ![RareAct](rareact.png)
 
 
+## Requirements
+
+- Python 3
+- Pandas
+- Scikit-learn
+
 ## Data
 
 You can download the videos zipped into one file [here](https://www.rocq.inria.fr/cluster-willow/amiech/rareact.zip).
