@@ -53,7 +53,7 @@ To compute the mSAP (n=100) just run:
 python compute_score.py predictions.npy 100 
 ```
 
-where predictions.npy is the prediction output numpy array as described above.
+where `predictions.npy` is the prediction output numpy array as described above.
 
 ## References
 
