@@ -1,6 +1,6 @@
 # RareAct
 
-This repository contains annotation for the RareAct dataset as well as an evaluation script for
+This repository contains annotation for the [RareAct](https://arxiv.org/abs/2008.01018) dataset as well as an evaluation script for
 computing the wAP and sAP metrics described in the paper.
 
 ![RareAct](rareact.png)
