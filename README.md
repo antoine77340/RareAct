@@ -62,8 +62,8 @@ If you find this dataset useful, please cite the following paper:
 ```bibtex
 @article{miech20rareact,
    title={RareAct: A video dataset of unusual interactions},
-   author={Miech, Antoine and Alayrac, Jean-Baptiste  and Laptev, Ivan and Sivic, Josef and Zisserman, Andrew},
-   journal={arxiv},
+   author={Miech, Antoine and Alayrac, Jean-Baptiste and Laptev, Ivan and Sivic, Josef and Zisserman, Andrew},
+   journal={arxiv:2008.01018},
    year={2020},
 }
 ```
